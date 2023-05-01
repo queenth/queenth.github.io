@@ -1,0 +1,182 @@
+/* C00292071 Queen Onaghise */
+.myMenu {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+
+  }
+  
+  .myMenu a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .myMenu a:hover{
+    background-color: rgb(76, 69, 69);
+  }
+
+  
+
+html {
+    background-image: linear-gradient(80deg, rgb(209, 76, 185) 0%, rgb(140, 47, 140) 50%, rgb(63, 43, 176) 75%);
+}
+/* figure img:hover .figcaption {
+    transform: rotate(180deg);
+    background-color:transparent;
+  } */
+table, th, td {
+    border:1px solid rgb(255, 0, 89);
+    background-color:rgb(125, 125, 127);
+    border-collapse: collapse;
+    text-decoration-color: aliceblue;
+  }
+th{
+    background-color:magenta ;
+}
+td:hover{ /*for transition effect but i couldnt get it to work */
+    color: #000;
+}
+.contactImage{
+    float: left;
+    width: 60%;
+    background: #ccc;
+    padding: 10px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.contactImage:hover{
+  transform: rotate(360deg);
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.contactForm{
+    float: right;
+    width: 35%;
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .intro{
+    background-image: url('z.PNG') ;
+    background-size: cover;
+    font: 1.2em sans-serif;
+    height: 90%;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+  .tipsImage{
+    float: left;
+    width: 45%;
+    height: 90%;
+    background: #ccc;
+    padding: 10px;
+}
+
+.tipText{
+    font: 1em sans-serif;
+    float: right;
+    width: 45%;
+    height: 90%;
+    background: #ccc;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.momImage{
+    float: right;
+    width: 60%;
+    height: 90%;
+    background: #ccc;
+    padding: 10px;
+}
+
+.momText{
+    font: 1em sans-serif;
+    float: left;
+    width: 35%;
+    height: 90%;
+    background: #ccc;
+    padding: 10px;
+}
+
+.twinImage{
+    float: left;
+    width: 60%;
+    height: 90%;
+    background: #ccc;
+    padding: 10px;
+}
+
+.twinText{
+    font: 1em sans-serif;
+    float: right;
+    width: 35%;
+    height: 90%;
+    background: #ccc;
+    padding: 10px;
+}
+
+.rotate{
+    display: block;
+    position: fixed;
+    /* top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -60px 0 0 -280px; */
+    /* -webkit-transition: -webkit-transform 1s; */
+}
+.rotate:hover{
+    transition: rotate(180deg) translateZ(0) ;
+}
+@media all and (min-width: 200px) {
+    html {
+      background-color: lightgreen;
+    }
+}
+
+@media all and (min-width : 600px) {
+    table {
+      font-size: 2vw;
+
+    }
+}
+    
